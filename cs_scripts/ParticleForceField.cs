@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class volcano_pff : MonoBehaviour
+public class ParticleForceField : MonoBehaviour
 {
     public ParticleSystem particleSystem;  // Reference to the Particle System
     public float windStrength = 0.3f;  // Strength of the wind
@@ -22,6 +22,7 @@ public class volcano_pff : MonoBehaviour
     
     public void set_atm_wind(Vector3 setted_atm_wind){
         windDirection = setted_atm_wind;
+        windDirection.y = 0.7f;
     }
 
     void ApplyWindForce()
