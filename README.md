@@ -1,6 +1,6 @@
 # Breeze source code (unity)
 
-![Alt text](.Breeze_logo.png)
+![Alt text](./cs_scripts/Breeze_logo.png)
 
 This repo contains the C# scripts used in my unity project "Breeze" which can be played at https://microcosmos22.itch.io/breeze.
 The most important scripts are:
